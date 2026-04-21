@@ -1,0 +1,23 @@
+{
+  "source": "data\\videos\\exp3.mp4",
+  "output_video": "runs\\exp3\\tracked.mp4",
+  "mot_result": "runs\\exp3\\mot_results.txt",
+  "frames": 908,
+  "fps_input": 30.0,
+  "avg_tracks_per_frame": 2.217,
+  "elapsed_sec": 30.43,
+  "throughput_fps": 29.839,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "conf": 0.25,
+  "track_buffer": 180,
+  "trace_length": 180,
+  "tracker_config": {
+    "lost_track_buffer": 180,
+    "frame_rate": 30
+  },
+  "trace_config": {
+    "trace_length": 180
+  },
+  "mock": false
+}

@@ -5,10 +5,19 @@
   "frames": 377,
   "fps_input": 12.5,
   "avg_tracks_per_frame": 0.2891,
-  "elapsed_sec": 14.353,
-  "throughput_fps": 26.266,
+  "elapsed_sec": 10.285,
+  "throughput_fps": 36.657,
   "model": "yolo11n.pt",
   "device": "cpu",
   "conf": 0.25,
+  "track_buffer": 300,
+  "trace_length": 300,
+  "tracker_config": {
+    "lost_track_buffer": 300,
+    "frame_rate": 12
+  },
+  "trace_config": {
+    "trace_length": 300
+  },
   "mock": false
 }
