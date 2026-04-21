@@ -1,0 +1,14 @@
+{
+  "source": "runs\\exp2\\test_1.mp4",
+  "output_video": "runs\\exp2_rerun\\tracked.mp4",
+  "mot_result": "runs\\exp2_rerun\\mot_results.txt",
+  "frames": 984,
+  "fps_input": 29.97,
+  "avg_tracks_per_frame": 7.2541,
+  "elapsed_sec": 36.363,
+  "throughput_fps": 27.06,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "conf": 0.25,
+  "mock": false
+}

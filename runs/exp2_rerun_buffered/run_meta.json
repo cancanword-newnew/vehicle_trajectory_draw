@@ -1,0 +1,23 @@
+{
+  "source": "runs\\exp2\\test_1.mp4",
+  "output_video": "runs\\exp2_rerun_buffered\\tracked.mp4",
+  "mot_result": "runs\\exp2_rerun_buffered\\mot_results.txt",
+  "frames": 984,
+  "fps_input": 29.97,
+  "avg_tracks_per_frame": 7.2581,
+  "elapsed_sec": 37.962,
+  "throughput_fps": 25.92,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "conf": 0.25,
+  "track_buffer": 300,
+  "trace_length": 300,
+  "tracker_config": {
+    "lost_track_buffer": 300,
+    "frame_rate": 30
+  },
+  "trace_config": {
+    "trace_length": 300
+  },
+  "mock": false
+}

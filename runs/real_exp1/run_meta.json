@@ -1,0 +1,14 @@
+{
+  "source": "data\\videos\\real_traffic.mp4",
+  "output_video": "runs\\real_exp1\\tracked.mp4",
+  "mot_result": "runs\\real_exp1\\mot_results.txt",
+  "frames": 377,
+  "fps_input": 12.5,
+  "avg_tracks_per_frame": 0.2891,
+  "elapsed_sec": 14.353,
+  "throughput_fps": 26.266,
+  "model": "yolo11n.pt",
+  "device": "cpu",
+  "conf": 0.25,
+  "mock": false
+}
